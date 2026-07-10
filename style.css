@@ -1,0 +1,32 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.navigation-bar{
+    margin: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+}
+.logo-img{
+    height: 40px;
+    width: 120px;
+}
+.nav-btn{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+ul li{
+    color: #575757;
+}
+.register-btn{
+    background: #1D4ED8;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+}
