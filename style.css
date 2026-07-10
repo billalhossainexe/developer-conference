@@ -1,64 +1,98 @@
-*{
-    margin: 0px;
+* {
+  margin: 0px;
 }
 body {
   font-family: "Poppins", sans-serif;
 }
 /* Navigation Bar */
-.navigation-bar{
-    margin: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.navigation-bar {
+  margin: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.logo{
-    display: flex;
+.logo {
+  display: flex;
 }
-.logo-img{
-    height: 40px;
-    width: 120px;
+.logo-img {
+  height: 40px;
+  width: 120px;
 }
-.nav-btn{
-    display: flex;
-    list-style: none;
-    gap: 15px;
+.nav-btn {
+  display: flex;
+  list-style: none;
+  gap: 15px;
 }
-ul li{
-    color: #575757;
+ul li,
+.speaker-desc {
+  color: #575757;
 }
-.register-btn{
-    background: #1D4ED8;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 10px;
-    border: none;
-    font-weight: 600;
-    font-size: 1.1rem;
+.register-btn {
+  background: #1d4ed8;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
 }
 
 /* Main Hero Section */
-.hero{
-    
-     background:
+.hero {
+  background:
     linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
     url("assets/banner.jpg") center / cover no-repeat;
-    background-repeat: no-repeat;
-    height: 800px;
-    color: white;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
-.hero h2{
-    font-size: 70px;
+.card-heading{
+  justify-content: center;
+  text-align: center;
+  margin: 60px 0px 20px 0px ;
 }
-.hero-container{
-    margin-top: 90px;
+.hero h2 {
+  font-size: 70px;
 }
-.btn-big{
-    font-size: 30px;
-    padding: 20px 40px;
-    margin-top: 350px;
+.hero-container {
+  margin-top: 90px;
+}
+.btn-big {
+  font-size: 30px;
+  padding: 20px 40px;
+  margin-top: 350px;
+}
+
+/* speaker card */
+.card-1 {
+  border: 1px solid #E5E7EB;
+  display: inline-block;
+  border: 1px solid #E5E7EB;
+  margin-top: 30px;
+  border-radius: 10px 10px;
+}
+.card-1 img {
+  border-radius: 10px 10px 0px 0px;
+}
+.speaker-skill {
+  color: #2563eb;
+}
+.card-1 p,
+h3 {
+  padding-left: 25px;
+}
+.card-h3 {
+  margin: 10px auto;
+}
+.speaker-card{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 100px;
+  justify-content: space-between;
+
 }
