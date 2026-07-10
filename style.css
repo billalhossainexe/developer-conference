@@ -1,8 +1,12 @@
+*{
+    margin: 0px;
+}
 body {
   font-family: "Poppins", sans-serif;
 }
+/* Navigation Bar */
 .navigation-bar{
-    margin: 20px 200px;
+    margin: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,4 +33,32 @@ ul li{
     border-radius: 10px;
     border: none;
     font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* Main Hero Section */
+.hero{
+    
+     background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+    url("assets/banner.jpg") center / cover no-repeat;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.hero h2{
+    font-size: 70px;
+}
+.hero-container{
+    margin-top: 90px;
+}
+.btn-big{
+    font-size: 30px;
+    padding: 20px 40px;
+    margin-top: 350px;
 }
