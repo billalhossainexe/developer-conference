@@ -94,5 +94,67 @@ h3 {
   flex-wrap: wrap;
   margin: 20px 100px;
   justify-content: space-between;
+}
 
+/* Price Card */
+.price-card-heading{
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+}
+.price-card p{
+  color: #888888;
+}
+.font-clr{
+  color: #575757;
+}
+.price-card li{
+  color: #333333;
+  margin: 8px auto;
+}
+.standard-card{
+  margin: 50px 60%;
+  border: 1px solid #E5E7EB;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  height: 420px;
+  width: 310px;
+}
+.standard-card p, h1{
+    margin-left: 25px;
+}
+.price-sm-para{
+  font-size: 13px;
+}
+.hr{
+  width: 85%;
+  height: 1px;
+  margin: 25px 25px  25px  25px ;
+  border: none;
+  background-color: #e5e7eb;
+}
+.standard-price{
+  border: 1.5px solid #2563EB;
+  border-radius: 5px;
+  background: transparent;
+  padding: 10px;
+  width: 80%;
+  margin: 25px auto;
+  display: block;
+  text-align: center;
+}
+.card-btn-clr{
+  color: #2563EB;
+  font-weight: 600;
+}
+li::marker{
+  color: #2563EB;
+}
+.standard-para{
+  font-weight: 500;
+}
+.full-price-card{
+  display: flex;
+  gap: 30px;
 }
